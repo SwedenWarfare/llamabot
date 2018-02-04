@@ -1,0 +1,16 @@
+{
+  "name": "llamabot",
+  "version": "1.1.0",
+  "description": "llamabot for sweden.serv.nu discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SwedenWarfare",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.0",
+    "ms": "^2.1.1",
+    "nodemon": "^1.14.11"
+  }
+}
