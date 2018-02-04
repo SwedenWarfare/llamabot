@@ -2,9 +2,10 @@ const Discord = require("discord.js");
 
 
 module.exports.run = async (bot, message, args) => {
-  var rand = Math.floor((Math.random() * 11) + 1);
+  var rand = Math.floor((Math.random() * 20) + 1);
+
     message.delete().catch(O_o=>{});
-      if(rand == 0){
+      if(rand == 0 ){
         message.channel.send(`<@${message.author.id}> When I see lovers' names carved in a tree, I don't think its cute. I just think it's crazy how many people bring knives on a date.`);
 
       }

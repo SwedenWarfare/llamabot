@@ -4,19 +4,17 @@
   "description": "llamabot for sweden.serv.nu discord",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
-  "engines": { "node": "8.4.0" },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SwedenWarfare/llamabot.git"
+  "engines": {
+    "node": "8.4.0"
   },
   "author": "SwedenWarfare",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.3.0",
-    "ms": "^2.1.1",
-    "nodemon": "^1.14.11"
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
   }
 }
